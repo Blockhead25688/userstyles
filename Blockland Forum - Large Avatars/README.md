@@ -2,7 +2,7 @@
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/dargereldren/userstyles/master/Blockland%20Forum%20-%20Large%20Avatars/blf-large-avatars.user.styl)
 
-![With the style applied](110421_after.png)
+![With the style applied](100421_after.png)
 
 **Before:**  
 ![Image without the style](100421_additional_10754.png)
