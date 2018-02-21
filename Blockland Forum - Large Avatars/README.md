@@ -5,7 +5,7 @@
 ![With the style applied](110421_after.png)
 
 **Before:**  
-![Image without the style](141426_additional_10754.png)
+![Image without the style](100421_additional_10754.png)
 
 Allows viewing .ico avatars bigger than 75x75 without scaling down.
 
