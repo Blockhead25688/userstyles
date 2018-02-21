@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name         Blockland Forum - Large Avatars
+@namespace    blf-large-avatars
+@author       dargereldren
+@description  Allows viewing .ico avatars bigger than 75x75 without scaling down.
+@version      1.0.0
+@license      CC-BY-4.0
+@preprocessor stylus
+@var text size 'Maximum size' initial
+==/UserStyle== */
+
+@-moz-document domain("forum.blockland.us") {
+img.avatar {
+	max-width: size !important;
+	max-height: size !important;
+}
+}

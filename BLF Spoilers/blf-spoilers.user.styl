@@ -1,0 +1,52 @@
+/* ==UserStyle==
+@name         BLF Spoilers
+@namespace    blf-spoilers
+@author       dargereldren
+@description  Unhide transparent text by hovering over it
+@version      1.0.0
+@license      CC-BY-4.0
+@preprocessor stylus
+@var color spoilercolor 'Spoiler background color' black
+@var color hovercolor 'Text color when hovered' white
+@var checkbox font-enable 'Return font size to normal?' 1
+@var checkbox font-enable 'Reveal "[abbr]" and "[acronym]" as well?' 0
+==/UserStyle== */
+
+@-moz-document domain("forum.blockland.us") {
+	div.post span[style*="color: transparent;"] {
+		background-color: spoilercolor; 
+		color: transparent !important;
+	}
+
+	div.post span[style*="color: transparent;"]:hover, div.post span[style*="color: transparent;"]:focus {
+		color: hovercolor !important;
+	}
+
+	if reset-fontsize {
+		/* Reset font size if transparent color is involved */
+		div.post span[style*="font-size:"] > span[style*="color: transparent;"],
+		div.post span[style*="color: transparent;"] > span[style*="font-size:"] {
+			font-size: inherit !important;
+			line-height: inherit !important;
+		}
+	}
+
+	if reveal-abbr {
+		/* Reveal [abbr] and [acronym] a la Reddit custom CSS */
+		div.post abbr[title], div.post acronym[title] {
+			background-color: spoilercolor;
+			color: hovercolor !important;
+			text-decoration: none !important;
+		}
+
+		div.post abbr[title]:after, div.post acronym[title]:after {
+			padding-left: 6px;
+			color: transparent;
+			content: attr(title);
+		}
+
+		div.post abbr[title]:hover:after, div.post acronym[title]:hover:after {
+			color: hovercolor;
+		}
+	}
+}

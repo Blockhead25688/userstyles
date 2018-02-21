@@ -1,0 +1,146 @@
+/* ==UserStyle==
+@name         Blockland Forum - Dark Theme
+@namespace    blf-dark-theme
+@author       dargereldren
+@description  A derivative of my old BLF "Metro" theme.
+@version      1.1.0
+@license      CC-BY-SA-4.0
+==/UserStyle== */
+
+@-moz-document domain("forum.blockland.us") {
+html body {
+    background-color: #191919 !important;
+}
+
+body>table.tborder {
+    background-color: #191919 !important;
+}
+
+.tborder {
+	border: 1px solid black;
+}
+
+
+body>table.tborder>tbody>tr {
+    background-color: #191919 !important;
+}
+
+body>table:not(.tborder)>tbody>tr>td {
+    background-color: #191919 !important;
+}
+
+input, textarea, select {
+    background-color: #292929 !important;
+}
+
+.windowbg, .catbg3 {
+    background-color: #292929 !important;
+    color: #FFFFFF !important;
+}
+
+[style*="background-color:#AFC6DB"] { /* the ad at the bottom of the board listings */
+	background-color: transparent !important;
+	border-color: transparent !important;
+}
+
+.windowbg2 {
+    background-color: #404040 !important;
+    color: #FFFFFF !important;
+}
+
+.catbg, .titlebg, tr.titlebg th, tr.titlebg td, .titlebg a:link, .titlebg a:visited, .titlebg2, tr.titlebg2 th, tr.titlebg2 td, .titlebg2 a:link, .titlebg2 a:visited {
+	background-color: #202020 !important;
+}
+
+.catbg {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(0,0,0,0.5) 100%) !important;
+}
+
+.quote, .code {
+    background-color: #505050 !important;
+    color: #DDD !important;
+}
+
+a:link:not([style*="color:"]), a:visited:not([style*="color:"]) {
+	color:#6cf !important;
+}
+
+a:link:hover, a:visited:hover {
+	color:#f33 !important;
+}
+    
+span.nav, a.nav, a.nav:link, a.nav:visited, .catbg a:visited, .catbg a:link {
+  color: #FFF !important;
+}
+
+b.nav {
+    color: #FFFFFF;
+}
+    
+.hrcolor {
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+body, td, th, input, textarea, select {
+  	color: #FFFFFF !important;
+}
+
+.quoteheader, .codeheader {
+	color: #FFFFFF !important;
+}
+
+.highlight {
+	background-color: rgba(255, 255, 0, .2);
+    color: #FFFF00;
+}
+
+img.logoLink {
+    float: left;
+    background-image: url("https://i.imgur.com/QpWTfFa.png") !important;
+    padding-left: 400px !important;
+    width: 0 !important;
+    height: 50px !important;
+}
+
+[src$="/images/english/home.gif"],[src$="/images/english/help.gif"], [src$="/images/english/search.gif"], [src$="/images/english/profile.gif"], [src$="/images/english/logout.gif"], [src$="/images/english/login.gif"], [src$="/images/english/register.gif"] {
+    background-image: url("https://i.imgur.com/sRtYIIx.png") !important;
+    background-size: 105px 203px !important;
+    width: 0 !important;
+    height: 29px !important;
+}
+
+[src$="/images/english/home.gif"] {
+    padding-left: 73px !important;
+}
+
+[src$="/images/english/help.gif"] {
+    padding-left: 73px !important;
+    background-position: 0 -100% !important;
+}
+
+[src$="/images/english/search.gif"] {
+    padding-left: 85px !important;
+    background-position: 0 -200% !important;
+}
+
+[src$="/images/english/profile.gif"] {
+    padding-left: 85px !important;
+    background-position: 0 -300% !important;
+}
+
+[src$="/images/english/login.gif"] {
+    padding-left: 85px !important;
+    background-position: 0 -400% !important;
+}
+
+[src$="/images/english/logout.gif"] {
+    padding-left: 85px !important;
+    background-position: 0 -500% !important;
+}
+
+[src$="/images/english/register.gif"] {
+    padding-left: 105px !important;
+    background-position: 0 -600% !important;
+}
+}

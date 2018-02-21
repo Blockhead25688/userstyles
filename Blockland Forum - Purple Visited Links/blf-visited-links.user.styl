@@ -1,0 +1,33 @@
+/* ==UserStyle==
+@name         Blockland Forum - Purple Visited Links
+@namespace    blf-visited-links
+@author       dargereldren
+@description  Changes the color of visited links to see if you have already clicked the link before.
+@version      1.0.0
+@license      CC-BY-4.0
+@preprocessor stylus
+@var select theme 'Theme' ["Light", "Dark"]
+==/UserStyle== */
+
+@-moz-document domain("forum.blockland.us") {
+	if theme == 'Light' {
+		a:visited:not(:hover) {
+			color: #380077 !important;
+		}
+		.titlebg2 a:visited {
+			color: #63C !important;
+		}
+		a.nav:visited:not(:hover) {
+			color: #606 !important;
+		}
+	} else if theme == 'Dark' {
+		a:visited:not(:hover),
+		.titlebg2 a:visited,
+		a.nav:visited:not(:hover) {
+			color: #a96cd9 !important;
+		}
+	}
+	.catbg a:visited {
+		color: #AAA !important;
+	}
+}

@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name Mario Paint (global cursor)
+@namespace mario-paint-cursor
+@author dargereldren
+@description The Mario Paint title screen cursor, as a global cursor.
+@version 1.0.0
+@var select cursor-size 'Cursor Size' ["Small", "Large"]
+@preprocessor stylus
+==/UserStyle== */
+
+* {
+	if cursor-size == 'Small' {
+		cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYAgMAAAB2Lm5oAAAADFBMVEX///+AgIDAwMD4+PgfkEawAAAAAXRSTlMAQObYZgAAAJxJREFUCB0FwbENgkAAhtHvCt2AhsZVbgRMjIk09FDcCLcCG9Bog8VNYFjhNqDRQi1sICSa4/c9NpZDAexilibAT94nwKfhs1pwcqosNBo1WsileWlhOygpggnJ+wg0qhSBUovuYI6D9LCYOUhdgbk5rUPEhKCfJnDSWxPUWoMi5NdXt7aw6Xv3tWDKS/MEyPb1GQDqFgBOFgAy+ANKDlFP5seRwwAAAABJRU5ErkJggg=="), auto !important;
+    } else if cursor-size == 'Large' {
+		cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAAwAgMAAAAncmFTAAAADFBMVEX///+AgIDAwMD4+PgfkEawAAAAAXRSTlMAQObYZgAAAKhJREFUKJF9zyGyxTAMQ1ET7y9ExCSrCzHJ6kJC7gdtwUvdb3ZmNCPZTM3M1GTX/dJZ5mLRKnZonQ7rg2uyYbeCAQQgSk5Y8DQd9ARA9FHQYgKsZ8dBT1idXtNiguCDSqA/Pxx0XVVstYLo2jlQwbkCYE9WwSQBJtBetODO1kxg5/PEQc+cOwfsUdCUmRmQraIrUzHv7ElzySPv7IvXmGHf1Gj/0GVv/gGD+ESOn6G+iQAAAABJRU5ErkJggg=="), auto !important;
+    }
+	
+}

@@ -1,0 +1,40 @@
+/* ==UserStyle==
+@name         Blockland Forum - No emotes / obnoxious formatting
+@namespace    blf-no-formatting
+@author       dargereldren
+@description  For those that hate fun.
+@version      1.0.0
+@license      CC-BY-4.0
+@preprocessor stylus
+@var checkbox no-emotes 'Remove emotes?' 1
+@var checkbox no-color 'Remove colors?' 1
+@var checkbox no-font 'Remove fonts?' 1
+@var checkbox no-size 'Remove font sizes?' 1
+==/UserStyle== */
+
+@-moz-document domain("forum.blockland.us") {
+	if no-emotes {
+		img[src*="://forum.blockland.us/Smileys/"],
+		img[src*="://www.garycact.us/emoticons/"],
+		img[src*="/economy/emoticon/"]
+		{
+			display:none;
+		}
+	}
+	if no-color {
+		div.post span[style*="color:"] {
+			color: inherit !important;
+		}
+	}
+	if no-font {
+		div.post span[style*="font-family:"] {
+			font-family: inherit !important;
+		}
+	}
+	if no-size {
+		div.post span[style*="font-size:"] {
+			font-size: inherit !important;
+			line-height: inherit !important;
+		}
+	}
+}
