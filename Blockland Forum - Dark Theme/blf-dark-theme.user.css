@@ -3,7 +3,7 @@
 @namespace    blf-dark-theme
 @author       dargereldren
 @description  A derivative of my old BLF "Metro" theme.
-@version      1.1.0
+@version      1.1.1
 @license      CC-BY-SA-4.0
 ==/UserStyle== */
 
@@ -142,5 +142,89 @@ img.logoLink {
 [src$="/images/english/register.gif"] {
     padding-left: 105px !important;
     background-position: 0 -600% !important;
+}
+
+
+    
+[src$="/Themes/Blockland/images/bbc/bold.gif"], [src$="/Themes/Blockland/images/bbc/italicize.gif"], [src$="/Themes/Blockland/images/bbc/underline.gif"], [src$="/Themes/Blockland/images/bbc/strike.gif"], [src$="/Themes/Blockland/images/bbc/pre.gif"], [src$="/Themes/Blockland/images/bbc/left.gif"], [src$="/Themes/Blockland/images/bbc/center.gif"], [src$="/Themes/Blockland/images/bbc/right.gif"], [src$="/Themes/Blockland/images/bbc/hr.gif"], [src$="/Themes/Blockland/images/bbc/size.gif"], [src$="/Themes/Blockland/images/bbc/face.gif"],
+[src$="/Themes/Blockland/images/bbc/img.gif"], [src$="/Themes/Blockland/images/bbc/url.gif"], [src$="/Themes/Blockland/images/bbc/email.gif"], [src$="/Themes/Blockland/images/bbc/ftp.gif"], [src$="/Themes/Blockland/images/bbc/table.gif"], [src$="/Themes/Blockland/images/bbc/tr.gif"], [src$="/Themes/Blockland/images/bbc/td.gif"], [src$="/Themes/Blockland/images/bbc/sup.gif"], [src$="/Themes/Blockland/images/bbc/sub.gif"], [src$="/Themes/Blockland/images/bbc/tele.gif"], [src$="/Themes/Blockland/images/bbc/code.gif"], [src$="/Themes/Blockland/images/bbc/quote.gif"], [src$="/Themes/Blockland/images/bbc/list.gif"] {
+	background-image: url('https://i.imgur.com/DJ0fhT6.png') !important;
+    background-size: 299px 44px !important;
+    width: 0 !important;
+    height: 22px !important;
+	padding-left: 23px !important;
+}
+
+[src$="/Themes/Blockland/images/bbc/bold.gif"] {
+	background-position: 0 0 !important
+}
+[src$="/Themes/Blockland/images/bbc/italicize.gif"] {
+	background-position: -100% 0 !important
+}
+[src$="/Themes/Blockland/images/bbc/underline.gif"] {
+	background-position: -200% 0 !important
+}
+[src$="/Themes/Blockland/images/bbc/strike.gif"] {
+	background-position: -300% 0 !important
+}
+[src$="/Themes/Blockland/images/bbc/pre.gif"] {
+	background-position: -400% 0 !important
+}
+[src$="/Themes/Blockland/images/bbc/left.gif"] {
+	background-position: -500% 0 !important
+}
+[src$="/Themes/Blockland/images/bbc/center.gif"] {
+	background-position: -600% 0 !important
+}
+[src$="/Themes/Blockland/images/bbc/right.gif"] {
+	background-position: -700% 0 !important
+}
+[src$="/Themes/Blockland/images/bbc/hr.gif"] {
+	background-position: -800% 0 !important
+}
+[src$="/Themes/Blockland/images/bbc/size.gif"] {
+	background-position: -900% 0 !important
+}
+[src$="/Themes/Blockland/images/bbc/face.gif"] {
+	background-position: -1000% 0 !important
+}
+[src$="/Themes/Blockland/images/bbc/img.gif"] {
+	background-position: 0 -100% !important
+}
+[src$="/Themes/Blockland/images/bbc/url.gif"] {
+	background-position: -100% -100% !important
+}
+[src$="/Themes/Blockland/images/bbc/email.gif"] {
+	background-position: -200% -100% !important
+}
+[src$="/Themes/Blockland/images/bbc/ftp.gif"] {
+	background-position: -300% -100% !important
+}
+[src$="/Themes/Blockland/images/bbc/table.gif"] {
+	background-position: -400% -100% !important
+}
+[src$="/Themes/Blockland/images/bbc/tr.gif"] {
+	background-position: -500% -100% !important
+}
+[src$="/Themes/Blockland/images/bbc/td.gif"] {
+	background-position: -600% -100% !important
+}
+[src$="/Themes/Blockland/images/bbc/sup.gif"] {
+	background-position: -700% -100% !important
+}
+[src$="/Themes/Blockland/images/bbc/sub.gif"] {
+	background-position: -800% -100% !important
+}
+[src$="/Themes/Blockland/images/bbc/tele.gif"] {
+	background-position: -900% -100% !important
+}
+[src$="/Themes/Blockland/images/bbc/code.gif"] {
+	background-position: -1000% -100% !important
+}
+[src$="/Themes/Blockland/images/bbc/quote.gif"] {
+	background-position: -1100% -100% !important
+}
+[src$="/Themes/Blockland/images/bbc/list.gif"] {
+	background-position: -1200% -100% !important
 }
 }
