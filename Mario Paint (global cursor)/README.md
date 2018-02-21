@@ -4,7 +4,7 @@
 
 ![With the style applied](91675_after.png)
 
-The Mario Paint title screen cursor, as a global cursor.
+The Mario Paint title screen cursor, as a global cursor.  
 Mario Paint™ is copyright ©1992 Nintendo
 
 ## Changelog:
