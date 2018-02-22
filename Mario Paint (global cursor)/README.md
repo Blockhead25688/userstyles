@@ -9,6 +9,8 @@ Mario Paint™ is copyright ©1992 Nintendo
 
 ## Changelog:
 
+1.0.1: Added homepage URL
+
 1.0.0: Converted to a [Stylus](http://stylus-lang.com/)-based user style for the [Stylus extension](http://add0n.com/stylus.html).
 
 ### Userstyles.org:

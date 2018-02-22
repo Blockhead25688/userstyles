@@ -10,6 +10,8 @@ May not work with private browsing, since your browsing history is not tracked.
 
 ## Changelog:
 
+1.0.1: Added homepage URL
+
 1.0.0: Converted to a [Stylus](http://stylus-lang.com/)-based user style for the [Stylus extension](http://add0n.com/stylus.html).
 
 ## License

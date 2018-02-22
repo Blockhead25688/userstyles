@@ -8,8 +8,9 @@ Unhide transparent text (and `[abbr]`) by hovering over it.
 
 ## Changelog
 
-1.0.1:
-- Fixed a few variable typos
+1.0.2: Added homepage URL
+
+1.0.1: Fixed a few variable typos
 
 1.0.0:
 - Converted to a [Stylus](http://stylus-lang.com/)-based user style for the [Stylus extension](http://add0n.com/stylus.html).
@@ -24,4 +25,3 @@ Unhide transparent text (and `[abbr]`) by hovering over it.
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)  
 This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
-
