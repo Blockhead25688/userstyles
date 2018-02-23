@@ -3,12 +3,13 @@
 @namespace    blf-no-formatting
 @author       dargereldren
 @description  For those that hate fun.
-@version      1.0.1
+@version      1.0.2
 @license      CC-BY-4.0
 @homepageURL  https://github.com/dargereldren/userstyles/tree/master/Blockland%20Forum%20-%20No%20emotes%20or%20obnoxious%20formatting
 @preprocessor stylus
 @var checkbox no-emotes 'Remove emotes?' 1
 @var checkbox no-color 'Remove colors?' 1
+@var checkbox no-invis 'Remove transparency? (may reveal spoilers)' 0
 @var checkbox no-font 'Remove fonts?' 1
 @var checkbox no-size 'Remove font sizes?' 1
 ==/UserStyle== */
@@ -23,7 +24,12 @@
 		}
 	}
 	if no-color {
-		div.post span[style*="color:"] {
+		div.post span[style*="color:"]:not([style*="color: transparent;"]) {
+			color: inherit !important;
+		}
+	}
+	if no-invis {
+		div.post span[style*="color: transparent;"] {
 			color: inherit !important;
 		}
 	}

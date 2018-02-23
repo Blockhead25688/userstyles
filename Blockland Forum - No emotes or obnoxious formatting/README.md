@@ -8,6 +8,8 @@ For those that hate fun. Disables emotes (from BLF, garycact.us, and Steam), `[c
 
 ## Changelog:
 
+1.0.2: Split transparency into its own option (disabled by default) since it may reveal spoilers
+
 1.0.1: Added homepage URL
 
 1.0.0: Converted to a [Stylus](http://stylus-lang.com/)-based user style for the [Stylus extension](http://add0n.com/stylus.html).
