@@ -3,7 +3,7 @@
 @namespace    blf-no-formatting
 @author       dargereldren
 @description  For those that hate fun.
-@version      1.0.2
+@version      1.0.3
 @license      CC-BY-4.0
 @homepageURL  https://github.com/dargereldren/userstyles/tree/master/Blockland%20Forum%20-%20No%20emotes%20or%20obnoxious%20formatting
 @preprocessor stylus
@@ -18,7 +18,8 @@
 	if no-emotes {
 		img[src*="://forum.blockland.us/Smileys/"],
 		img[src*="://www.garycact.us/emoticons/"],
-		img[src*="/economy/emoticon/"]
+		img[src*="/economy/emoticon/"],
+		img[src*="://cdn.discordapp.com/emojis/"]
 		{
 			display:none;
 		}
