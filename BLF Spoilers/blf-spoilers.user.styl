@@ -14,19 +14,29 @@
 ==/UserStyle== */
 
 @-moz-document domain("forum.blockland.us") {
-	div.post span[style*="color: transparent;"] {
+	div.post span[style*="color: transparent;"],
+	div.topic span[style*="color: transparent;"],
+	div.signature span[style*="color: transparent;"] {
 		background-color: spoilercolor; 
 		color: transparent !important;
 	}
 
-	div.post span[style*="color: transparent;"]:hover, div.post span[style*="color: transparent;"]:focus {
+	div.post span[style*="color: transparent;"]:hover, div.post span[style*="color: transparent;"]:focus,
+	div.topic span[style*="color: transparent;"]:hover, div.topic span[style*="color: transparent;"]:focus,
+	div.signature span[style*="color: transparent;"]:hover, div.signature span[style*="color: transparent;"]:focus {
 		color: hovercolor !important;
 	}
 
 	if reset-fontsize {
 		/* Reset font size if transparent color is involved */
 		div.post span[style*="font-size:"] > span[style*="color: transparent;"],
-		div.post span[style*="color: transparent;"] > span[style*="font-size:"] {
+		div.post span[style*="color: transparent;"] > span[style*="font-size:"],
+		
+		div.topic span[style*="font-size:"] > span[style*="color: transparent;"],
+		div.topic span[style*="color: transparent;"] > span[style*="font-size:"],
+		
+		div.signature span[style*="font-size:"] > span[style*="color: transparent;"],
+		div.signature span[style*="color: transparent;"] > span[style*="font-size:"] {
 			font-size: inherit !important;
 			line-height: inherit !important;
 		}
@@ -34,19 +44,25 @@
 
 	if reveal-abbr {
 		/* Reveal [abbr] and [acronym] a la Reddit custom CSS */
-		div.post abbr[title], div.post acronym[title] {
+		div.post abbr[title], div.post acronym[title],
+		div.topic abbr[title], div.post acronym[title],
+		div.signature abbr[title], div.post acronym[title] {
 			background-color: spoilercolor;
 			color: hovercolor !important;
 			text-decoration: none !important;
 		}
 
-		div.post abbr[title]:after, div.post acronym[title]:after {
+		div.post abbr[title]:after, div.post acronym[title]:after,
+		div.topic abbr[title]:after, div.topic acronym[title]:after,
+		div.signature abbr[title]:after, div.signature acronym[title]:after {
 			padding-left: 6px;
 			color: transparent;
 			content: attr(title);
 		}
 
-		div.post abbr[title]:hover:after, div.post acronym[title]:hover:after {
+		div.post abbr[title]:hover:after, div.post acronym[title]:hover:after,
+		div.topic abbr[title]:hover:after, div.topic acronym[title]:hover:after,
+		div.signature abbr[title]:hover:after, div.signature acronym[title]:hover:after {
 			color: hovercolor;
 		}
 	}

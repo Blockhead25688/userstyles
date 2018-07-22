@@ -8,6 +8,8 @@ Unhide transparent text (and `[abbr]`) by hovering over it.
 
 ## Changelog
 
+1.0.3: Added fixes for SMF 2
+
 1.0.2: Added homepage URL
 
 1.0.1: Fixed a few variable typos

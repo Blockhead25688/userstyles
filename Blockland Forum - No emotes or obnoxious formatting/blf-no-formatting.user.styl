@@ -25,22 +25,30 @@
 		}
 	}
 	if no-color {
-		div.post span[style*="color:"]:not([style*="color: transparent;"]) {
+		div.post span[style*="color:"]:not([style*="color: transparent;"]),
+		div.topic span[style*="color:"]:not([style*="color: transparent;"]),
+		div.signature span[style*="color:"]:not([style*="color: transparent;"]) {
 			color: inherit !important;
 		}
 	}
 	if no-invis {
-		div.post span[style*="color: transparent;"] {
+		div.post span[style*="color: transparent;"],
+		div.topic span[style*="color: transparent;"],
+		div.signature span[style*="color: transparent;"] {
 			color: inherit !important;
 		}
 	}
 	if no-font {
-		div.post span[style*="font-family:"] {
+		div.post span[style*="font-family:"],
+		div.topic span[style*="font-family:"],
+		div.signature span[style*="font-family:"] {
 			font-family: inherit !important;
 		}
 	}
 	if no-size {
-		div.post span[style*="font-size:"] {
+		div.post span[style*="font-size:"],
+		div.topic span[style*="font-size:"],
+		div.signature span[style*="font-size:"] {
 			font-size: inherit !important;
 			line-height: inherit !important;
 		}
