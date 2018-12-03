@@ -1,8 +1,13 @@
-# BLF Spoilers
+---
+layout: post
+title:  "BLF Spoilers"
+date:   2013-06-07 12:55:46 +0000
+tags:   blockland-forum
+---
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/dargereldren/userstyles/master/BLF%20Spoilers/blf-spoilers.user.styl)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](/files/blf-spoilers.user.styl)
 
-![With the style applied](88755_after.png)
+![With the style applied](/img/88755_after.png)
 
 Unhide transparent text (and `[abbr]`) by hovering over it.
 

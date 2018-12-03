@@ -1,6 +1,11 @@
-# Mario Paint (global cursor)
+---
+layout: post
+title:  "Mario Paint (global cursor)"
+date:   2013-08-10 09:14:20 +0000
+tags:   global
+---
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/dargereldren/userstyles/master/Mario%20Paint%20(global%20cursor)/mario-paint-cursor.user.styl)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](/files/mario-paint-cursor.user.styl)
 
 ![With the style applied](91675_after.png)
 

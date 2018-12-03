@@ -1,6 +1,11 @@
-# Blockland Forum - Purple Visited Links
+---
+layout: post
+title:  "Blockland Forum - Purple Visited Links"
+date:   2015-11-28 17:54:49 +0000
+tags:   blockland-forum
+---
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/dargereldren/userstyles/master/Blockland%20Forum%20-%20Purple%20Visited%20Links/blf-visited-links.user.styl)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](/files/blf-visited-links.user.styl)
 
 ![With the style applied](121239_after.png)
 
