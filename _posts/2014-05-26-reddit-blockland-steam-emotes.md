@@ -5,10 +5,10 @@ date:   2014-05-26 18:09:58 +0000
 tags:   blockland-forum
 ---
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](/files/reddit-blockland-steam-emotes.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](/userstyles/files/reddit-blockland-steam-emotes.user.css)
 
-![With the style applied](/img/101916_after.png)  
-[Large emotes](/img/101916_additional_11195.png)
+![With the style applied](/userstyles/img/101916_after.png)  
+[Large emotes](/userstyles/img/101916_additional_11195.png)
 
 Blockland's official Steam emotes, converted to Reddit emotes for use on /r/Blockland or all of Reddit.
 

@@ -5,12 +5,12 @@ date:   2017-07-09 17:36:22 +0000
 tags:   blockland-forum
 ---
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](/files/blf-large-avatars.user.styl)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](/userstyles/files/blf-large-avatars.user.styl)
 
-![With the style applied](/img/100421_after.png)
+![With the style applied](/userstyles/img/100421_after.png)
 
 **Before:**  
-![Image without the style](/img/100421_additional_10754.png)
+![Image without the style](/userstyles/img/100421_additional_10754.png)
 
 Allows viewing .ico avatars bigger than 75x75 without scaling down.
 
