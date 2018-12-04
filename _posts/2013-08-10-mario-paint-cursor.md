@@ -5,7 +5,7 @@ date:   2013-08-10 09:14:20 +0000
 tags:   global
 ---
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](/userstyles/files/mario-paint-cursor.user.styl)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](/userstyles/files/mario-paint-cursor.user.css)
 
 ![With the style applied](/userstyles/91675_after.png)
 

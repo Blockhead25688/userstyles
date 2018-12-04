@@ -5,7 +5,7 @@ date:   2014-04-16 23:43:38 +0000
 tags:   blockland-forum
 ---
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](/userstyles/files/blf-large-avatars.user.styl)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](/userstyles/files/blf-large-avatars.user.css)
 
 ![With the style applied](/userstyles/img/100421_after.png)
 
