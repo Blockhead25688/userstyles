@@ -5,13 +5,15 @@ date:   2015-11-28 17:54:49 +0000
 tags:   blockland-forum
 ---
 
+Changes the color of visited links to see if you have already clicked the link before.
+
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](/userstyles/files/blf-visited-links.user.css)
 
 ![With the style applied](/userstyles/img/121239_after.png)
 
-Changes the color of visited links to see if you have already clicked the link before.
+---
 
-May not work with private browsing, since your browsing history is not tracked.
+May not work with private browsing depending on how your browser works.
 
 ## Changelog:
 

@@ -5,11 +5,15 @@ date:   2012-04-15 09:53:57 +0000
 tags:   blockland-forum
 ---
 
+For those that hate fun.
+
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](/userstyles/files/blf-no-formatting.user.css)
 
 ![With the style applied](/userstyles/img/64168_after.png)
 
-For those that hate fun. Disables emotes (from BLF, garycact.us, and Steam), `[color]`, `[font]`, and `[size]`.
+---
+
+Disables emotes (from BLF, garycact.us, and Steam), `[color]`, `[font]`, and `[size]`.
 
 ## Changelog:
 
