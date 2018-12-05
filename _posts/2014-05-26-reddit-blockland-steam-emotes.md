@@ -2,7 +2,7 @@
 layout: post
 title:  "Reddit - Blockland (Steam) Emotes"
 date:   2014-05-26 18:09:58 +0000
-tags:   blockland-forum
+tags:   reddit
 ---
 
 Blockland's official Steam emotes, converted to Reddit emotes for use on /r/Blockland or all of Reddit.
