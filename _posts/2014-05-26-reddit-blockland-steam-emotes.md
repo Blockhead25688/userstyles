@@ -7,10 +7,10 @@ tags:   reddit
 
 Blockland's official Steam emotes, converted to Reddit emotes for use on /r/Blockland or all of Reddit.
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](/userstyles/files/reddit-blockland-steam-emotes.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)]({{ 'files/reddit-blockland-steam-emotes.user.css' | relative_url }})
 
-![With the style applied](/userstyles/img/101916_after.png)  
-[Large emotes](/userstyles/img/101916_additional_11195.png)
+![With the style applied]({{ 'img/101916_after.png' | relative_url }})  
+[Large emotes]({{ 'img/101916_additional_11195.png' | relative_url }})
 
 ---
 

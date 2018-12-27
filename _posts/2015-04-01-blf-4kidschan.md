@@ -7,9 +7,9 @@ tags:   blockland-forum
 
 BLF April Fools 2015 theme.
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](/userstyles/files/blf-4kidschan.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)]({{ 'files/blf-4kidschan.user.css' | relative_url }})
 
-![With the style applied](/userstyles/img/112137_after.png)
+![With the style applied]({{ 'img/112137_after.png' | relative_url }})
 
 ---
 

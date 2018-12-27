@@ -7,10 +7,9 @@ tags:   blockland-forum
 
 For those that hate fun.
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](/userstyles/files/blf-no-formatting.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)]({{ 'files/blf-no-formatting.user.css' | relative_url }})
 
-![With the style applied](/userstyles/img/64168_after.png)
-
+![With the style applied]({{ 'img/64168_after.png' | relative_url }})
 ---
 
 Disables emotes (from BLF, garycact.us, and Steam), `[color]`, `[font]`, and `[size]`.
