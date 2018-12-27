@@ -1,0 +1,28 @@
+---
+layout: default
+---
+{%- include header.html -%}
+
+<!-- Main -->
+<div id="main">
+	<!-- Post -->
+	<article class="shade-two">
+	  <div class="container">
+			<header>
+				<h2>{{- page.title -}}</h2>
+				<p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
+			</header>
+	    {{- content -}}
+	  </div>
+	</article>
+	{%if page.tags %}<article class="shade-three">
+	  <div class="container">
+		<ul class="fa-ul"><li><i class="fa-li fas fa-tags"></i> 
+		{% for tag in page.tags %}
+			{% capture tag_name %}{{ tag }}{% endcapture %}
+			<a href="{{ 'tag/' | relative_url }}{{ tag_name }}.html"><code><nobr>{{ tag_name }}</nobr></code></a>
+		  {% endfor %}
+		</li></ul>
+	  </div>
+	</article>{% endif %}
+</div>

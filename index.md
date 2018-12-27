@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: blog
+title: Home
+icon: fa-home
+order: 1
 ---
-
-{% for post in site.posts %}
-### {{ post.date | date_to_string }} &raquo; [ {{ post.title | escape }} ]({{ post.url | relative_url }})
-{% endfor %}

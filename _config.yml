@@ -1,4 +1,7 @@
 title: User Styles
+subtitle: for the Stylus extension
 author: dargereldren
-logo: /img/logo.png
-theme: jekyll-theme-minimal
+avatar: https://avatars1.githubusercontent.com/u/29781372?s=96
+remote_theme: chrisbobbe/jekyll-theme-prologue
+plugins:
+  - jekyll-feed
