@@ -2,5 +2,8 @@
 layout: tagpage
 title: "Tag: blockland-forum"
 tag: blockland-forum
-robots: noindex
+icon: fa-tag
+robots: noindex, nofollow
+hide: true
+canonical: false
 ---

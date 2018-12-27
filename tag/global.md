@@ -2,5 +2,8 @@
 layout: tagpage
 title: "Tag: global"
 tag: global
-robots: noindex
+icon: fa-tag
+robots: noindex, nofollow
+hide: true
+canonical: false
 ---

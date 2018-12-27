@@ -2,5 +2,8 @@
 layout: tagpage
 title: "Tag: reddit"
 tag: reddit
-robots: noindex
+icon: fa-tag
+robots: noindex, nofollow
+hide: true
+canonical: false
 ---
